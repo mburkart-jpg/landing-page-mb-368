@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Landing Page</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header id="header">
+    <div class="logo">
+      <h1>Best Socks Ever</h1>
+    </div>
+    <img id="header-img" src="https://images.pexels.com/photos/5739154/pexels-photo-5739154.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Socks Image">
+
+    <nav id="nav-bar">
+      <ul>
+        <li><a href="#features" class="nav-link">Features</a></li>
+        <li><a href="#pricing" class="nav-link">Pricing</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+        <li><a href="#footer" class="nav-link">Footer</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-content">
+      <h2>The Best Socks You Will Ever Need</h2>
+      <p>Experience the future with Best Socks Ever. High quality, affordable, and easy to use.</p>
+      <a href="#pricing" class="cta-button">Buy Now</a>
+    </div>
+  </section>
+
+  <section id="features" class="features">
+    <h2>Features</h2>
+    <div class="feature-item">
+      <h3><strong>Arch Support</strong></h3>
+      <p>Provides additional support to the arch of the foot, helping with foot fatigue and providing a snug fit.</p>
+    </div>
+    <div class="feature-item">
+      <h3><strong>Moisture-Wicking Fabric</strong></h3>
+      <p>Materials like merino wool, polyester, or nylon draw moisture away from the skin, keeping your feet dry.</p>
+    </div>
+    <div class="feature-item">
+      <h3><strong>Strong, Abrasion-Resistant Materials:</strong></h3>
+      <p>Durable fabrics like nylon or spandex blend well with other materials to prevent wear and tear.</p>
+    </div>
+  </section>
+
+  <section id="pricing" class="pricing">
+    <h2>Pricing</h2>
+    <div class="pricing-plan">
+      <div class="pricing-text">
+        <h3>One Pair</h3>
+        <p>$10.99/month</p>
+        <a href="#" class="cta-button">Sign Up</a>
+      </div>
+      <div class="pricing-image">
+        <img src="https://images.pexels.com/photos/6832966/pexels-photo-6832966.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="One Pack of Socks">
+      </div>
+    </div>
+    <div class="pricing-plan">
+      <div class="pricing-text">
+        <h3>Three Pack</h3>
+        <p>$19.99/month</p>
+        <a href="#" class="cta-button">Sign Up</a>
+      </div>
+      <div class="pricing-image">
+        <img src="https://images.pexels.com/photos/9594145/pexels-photo-9594145.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Three Pack of Socks">
+      </div>
+    </div>
+  </section>
+
+  <section class="video-section">
+  <h2>Watch Our Video</h2>
+  <div class="video-container">
+    <video id="video" width="100%" height="500" controls>
+      <source src="https://media.istockphoto.com/id/1138676768/video/wiggling-toes.mp4?s=mp4-640x640-is&k=20&c=rBGaaxosyl9wP7xvr3uo-GU0gbgma8KzTzKOqf48qJM=" type="video/mp4">
+    </video>
+  </div>
+</section>
+
+  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <form id="form" action="https://www.freecodecamp.com/email-submit" method="post">
+      <label for="name">Your Name</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Your Email</label>
+      <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+      <label for="message">Message</label>
+      <textarea id="message" name="message" required></textarea>
+
+      <input type="submit" id="submit" value="Send Message">
+    </form>
+  </section>
+
+  <footer id="footer">
+    <p>&copy; 2024 Best Socks Ever. All rights reserved.</p>
+  </footer>
+</body>
+</html>
